@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestNG.Miji.TestEmployeeDetails
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+TestNG.Miji.TestEmployeeDetails.testCalculateAppriasal()  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<500> but was:<500.0>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:71)
+	at TestNG.Miji.TestEmployeeDetails.testCalculateAppriasal(TestEmployeeDetails.java:21)
+
+TestNG.Miji.TestEmployeeDetails.testCalculateYearlySalary()  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<96000> but was:<96000.0>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:71)
+	at TestNG.Miji.TestEmployeeDetails.testCalculateYearlySalary(TestEmployeeDetails.java:32)
+
